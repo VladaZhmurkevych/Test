@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "echo $TRAVIS_BRANCH",
+    "deploy": "echo deploy $TRAVIS_BRANCH",
     "test": "echo test",
     "start": "node index.js",
     "lint": "eslint index.js",
