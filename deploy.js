@@ -1,2 +1,2 @@
-console.log("deploy file");
-console.dir(process.env);
+console.log("Current branch: ");
+console.dir(process.env['TRAVIS_BRANCH']);
