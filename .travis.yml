@@ -7,4 +7,5 @@ before_install:
 scripts:
   - "npm run lint"
   - "npm run deploy"
+  - "npm run test"
 

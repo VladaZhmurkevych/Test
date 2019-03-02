@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "echo deploy $TRAVIS_BRANCH",
+    "test": "echo test",
     "start": "node index.js",
     "lint": "eslint index.js",
     "build": "echo build"
