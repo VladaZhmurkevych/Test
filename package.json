@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo",
+    "deploy": "echo $TRAVIS_BRANCH",
+    "test": "echo test",
     "start": "node index.js",
     "lint": "eslint index.js",
-    "deploy": "echo $TRAVIS_BRANCH",
-    "build": "echo"
+    "build": "echo build"
   },
   "repository": {
     "type": "git",
