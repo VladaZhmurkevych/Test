@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "lint": "eslint index.js",
-    "deploy": "git push heroku master",
-    "build": "echo"
+
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/VladaZhmurkevych/Test/issues"
   },
-  "homepage": "https://github.com/VladaZhmurkevych/Test#readme",
-  "devDependencies": {
-    "eslint": "^5.15.0"
-  }
+  "homepage": "https://github.com/VladaZhmurkevych/Test#readme"
 }
