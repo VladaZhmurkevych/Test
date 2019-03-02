@@ -1,11 +1,9 @@
 language: node_js
-deploy:
-  provider: herokugit
-  api_key:
-    secure: "4adca746-f515-450a-bf49-1e8a908d3050"
-  app: evening-headland-79044
-  run:
-    - "npm run lint"
-    - "npm run test"
-    - "npm run deploy"
-    - "npm start"
+cache: npm
+before_install:
+  - npm i
+scripts:
+  - "npm run lint"
+  - "npm run test"
+  - "npm run deploy"
+  - "npm start"
