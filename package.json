@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "now deploy.js",
+    "deploy": "echo",
     "test": "echo test",
     "start": "node index.js",
     "lint": "eslint index.js",
