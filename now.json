@@ -1,11 +1,6 @@
 {
+  "name": "zeit-chat",
   "version": 2,
-  "name": "monorepo",
-  "builds": [
-    { "src": "deploy.js", "use": "@now/php" },
-    { "src": "index.js", "use": "@now/node" }
-  ],
-  "routes": [
-    { "src": "/deploy", "dest": "/deploy.js" }
-  ]
+  "builds": [{ "src": "*.js", "use": "@now/node" }],
+  "alias": "zhmurkevych"
 }
